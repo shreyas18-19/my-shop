@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout | SD Fashion House</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <div class="top-logo"> <img src="image2.png" alt="SD Fashion House Logo"></div>
+
+
+<a href="jeans.html" class="back-home-btn page-link">← Back to jeans</a>
+
+<section class="checkout">
+  <h1>Details</h1>
+
+  <form class="checkout-form">
+
+    <h3>Customer Details</h3>
+    <input type="text" placeholder="Full Name" required>
+    <input type="tel" placeholder="Mobile Number" required>
+    <input type="email" placeholder="Email Address" required>
+
+    <h3>Delivery Address</h3>
+    <textarea placeholder="Full Address" required></textarea>
+
+    <h3>Payment Method</h3>
+    <label><input type="radio" name="payment" required> Cash on Delivery</label><br>
+    <label><input type="radio" name="payment"> UPI</label><br>
+    <label><input type="radio" name="payment"> Debit / Credit Card</label>
+
+    <button type="submit" class="place-order-btn">PLACE ORDER</button>
+  </form>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

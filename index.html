@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Glassy Shop</title>
+  <link rel="stylesheet" href="style.css" />
+<script src="script.js"></script></head>
+<body>
+
+  <!-- Background -->
+  <div class="bg"></div>
+
+  <div class="top-logo"> <img src="image2.png" alt="SD Fashion House Logo"></div>
+  <!-- Navbar -->
+  <nav class="navbar glass">
+  <h2 class="logo">SD Fashion House</h2>
+  <ul class="nav-menu">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="#products">Products</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#cart">🛒</a></li>
+
+  </ul>
+</nav>
+<section class="categories">
+  <div class="category-list">
+    <a href="jeans.html" class="category-card">Jeans</a>
+    <a href="shirts.html" class="category-card">Shirts</a>
+    <a href="tshirts.html" class="category-card">T-Shirts</a>
+    <a href="hoodies.html" class="category-card">Hoodies</a>
+    <a href="hoodies.html" class="category-card">Sports Wear</a>
+    <a href="hoodies.html" class="category-card">Shoes</a>
+    <a href="hoodies.html" class="category-card">Sweatshirt</a>
+
+
+  </div>
+</section>
+
+  <!-- Offer Banner -->
+<div class="offer glass">
+  🎉 <span>FLAT 50% OFF</span> on Limited Products – Limited Time!
+</div>
+
+
+  <!-- Luxury Hero Section -->
+<section class="luxury-hero">
+  <div class="luxury-content">
+    <h4 class="brand">OUR STORE PRESENTS</h4>
+    <h1>SD<br><span>Fashion Sale</span></h1>
+    <p>Experience premium clothing with flat 50% OFF</p>
+    <a href="shop.html" class="luxury-btn page-link"> SHOP NOW</a>
+
+</div>
+
+  <div class="luxury-image">
+    <img src="SD Shirt.png" alt="Luxury Fashion">
+    
+  </div>
+</section>
+
+  </div>
+</section>
+
+<!-- Premium Shirts Section -->
+<section class="premium-shirts">
+  <h2 class="section-title">SD Premium Cloths</h2>
+
+  <div class="shirts-grid">
+    
+    <!-- Shirt 1 -->
+    <div class="shirt-card glass">
+      <span class="badge">50% OFF</span>
+      <img src="SD Shirt.png" alt="SD Premium Shirt">
+      <h3>Royal White Shirt</h3>
+      <p class="price">
+        <del>₹2999</del> <span>₹1499</span>
+      </p>
+      <button onclick="openModal('SD Shirt.png','Royal Navy Shirt','₹2999','₹1499')">View Details</button>
+    </div>
+
+    <!-- Shirt 2 -->
+    <div class="shirt-card glass">
+      <span class="badge">50% OFF</span>
+      <img src="s10.jpg" alt="SD Premium Shirt">
+      <h3>Classic T-Shirt</h3>
+      <p class="price">
+        <del>₹2799</del> <span>₹1399</span>
+      </p>
+<button onclick="openModal( 's10.jpg', 'Classic Black Shirt','₹2799','₹1399')">View Details</button>    </div>
+
+    <!-- Shirt 3 -->
+    <div class="shirt-card glass">
+      <span class="badge">50% OFF</span>
+      <img src="p12.jpg" alt="SD Premium Shirt">
+      <h3>Denim Jeans</h3>
+      <p class="price">
+        <del>₹2599</del> <span>₹1299</span>
+      </p>
+    <button onclick="openModal('p12.jpg','Elegant White Shirt','₹2599','₹1299')">View Details</button>
+    </div>
+
+  </div>
+  <!-- Shirt Details Modal -->
+<div class="modal" id="shirtModal">
+  <div class="modal-content glass">
+    <span class="close" onclick="closeModal()">&times;</span>
+
+    <img id="modalImg" src="" alt="Shirt Image">
+
+    <h2 id="modalTitle"></h2>
+
+    <p class="modal-price">
+      <del id="modalOldPrice"></del>
+      <span id="modalNewPrice"></span>
+    </p>
+
+    <ul class="details-list">
+      <li><strong>Fabric:</strong> Premium Cotton</li>
+      <li><strong>Fit:</strong> Slim Fit</li>
+      <li><strong>Sleeves:</strong> Full Sleeves</li>
+      <li><strong>Care:</strong> Machine Wash</li>
+      <li><strong>Brand:</strong> SD Fashion House</li>
+    </ul>
+
+    <button>Add to Cart</button>
+  </div>
+</div>
+</section>
+
+
+<!-- SD Exclusive Section -->
+<section class="exclusive-section">
+  <h2 class="exclusive-title">Why SD Fashion House</h2>
+
+  <div class="exclusive-grid">
+    <div class="exclusive-card glass">
+      <h3>Premium Fabric</h3>
+      <p>Hand-picked luxury fabric for royal comfort and long life.</p>
+    </div>
+
+    <div class="exclusive-card glass">
+      <h3>Tailored Fit</h3>
+      <p>Perfect fitting designed for modern and classy men.</p>
+    </div>
+
+    <div class="exclusive-card glass">
+      <h3>SD Exclusive Design</h3>
+      <p>Limited edition styles you won’t find anywhere else.</p>
+    </div>
+
+    <div class="exclusive-card glass">
+      <h3>Free & Fast Delivery</h3>
+      <p>Premium packaging with safe and fast delivery.</p>
+    </div>
+  </div>
+</section>
+<!-- Signature Shirt Section -->
+<section class="signature-shirt glass">
+  <div class="signature-image">
+    <!-- इथे तुझा best SD shirt photo टाक -->
+    <img src="SD primium shirts.png" alt="SD Signature Shirt">
+  </div>
+
+  <div class="signature-content">
+    <h4 class="signature-tag">SD SIGNATURE</h4>
+    <h2>Royal White Premium Shirt</h2>
+    <p>
+      Crafted with premium cotton fabric, designed exclusively for
+      gentlemen who prefer class, comfort, and confidence.
+    </p>
+
+    <ul class="signature-details">
+      <li>✔ Premium Cotton Fabric</li>
+      <li>✔ Slim Tailored Fit</li>
+      <li>✔ Limited Edition</li>
+      <li>✔ SD Exclusive Design</li>
+    </ul>
+
+    <p class="signature-price">
+      <del>₹4999</del> <span>₹2998</span>
+    </p>
+
+    <button onclick="openModal('SD primium shirts.png','Royal White Premium Shirt','₹2999','₹1499')">
+      View Details
+    </button>
+  </div>
+</section>
+
+<!-- All Products Section -->
+<section class="all-products" id="products">
+
+  <h2 class="section-title">Explore Our Products</h2>
+
+  <div class="products-grid">
+
+    <div class="product-card glass">
+      <img src="SD Shirt.png" alt="Shirts">
+      <p>Shirts</p>
+    </div>
+
+    <div class="product-card glass">
+      <img src="s10.jpg" alt="T-Shirts">
+      <p>T-Shirts</p>
+    </div>
+
+    <div class="product-card glass">
+      <img src="hoodie.jpg" alt="Hoodies">
+      <p>Hoodies</p>
+    </div>
+
+    <div class="product-card glass">
+      <img src="p4.jpg" alt="Jeans">
+      <p>Jeans</p>
+    </div>
+
+    <div class="product-card glass">
+      <img src="sport.jpg" alt="Sports Wear">
+      <p>Sports Wear</p>
+    </div>
+
+    <div class="product-card glass">
+      <img src="cap.avif" alt="Caps">
+      <p>Caps</p>
+    </div>
+    
+    <div class="product-card glass">
+      <img src="water bottle.jpg" alt="Water Bottle">
+      <p>Sports Water Bottle</p>
+    </div>
+
+    <div class="product-card glass">
+      <img src="shoes.jpg" alt="Shoes">
+      <p>Shoes</p>
+    </div>
+
+    <div class="product-card glass">
+      <img src="nike.jpg" alt="Sport Shoes">
+      <p>Sport Shoes</p>
+    </div>
+
+    <div class="product-card glass">
+      <img src="sports watch.jpg" alt="Watch">
+      <p>Sports Watch</p>
+    </div>
+
+  </div>
+
+</section>
+<section class="contact-section glass" id="contact">
+  <h2 class="section-title">Get In Touch</h2>
+  <div class="contact-wrapper">
+<div class="contact-info">
+  <h3>SD Fashion House</h3>
+  <p>
+    We design premium fashion for people who value
+    quality, comfort and confidence.
+  </p>
+
+  <p><strong>Email:</strong> sdfashion@gmail.com</p>
+  <p><strong>Phone:</strong> +91 xxxxxxxxxx</p>
+  <p><strong>Location:</strong> sopan baug, balewadi, pune, Maharashtra, India</p>
+</div>
+
+<div class="contact-form">
+  <form>
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message"></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</div>
+</div>
+  <div class="contact-map">
+    <iframe
+      src="https://www.google.com/maps?q=Maharashtra,India&output=embed"
+      loading="lazy">
+    </iframe>
+  </div>
+</section>
+
+
+</body>
+</html>
